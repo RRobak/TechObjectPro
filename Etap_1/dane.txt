@@ -16,10 +16,12 @@ Harmonogram prac:
 Etap 2: Zapoznanie się z technologią Microsoft SQL Server oraz przygotowanie wstępu teoretycznego dotyczącego bazy, projekt formatek
 Etap 3: Utworzenie widoków, utworzenie podstawowych metod odpowiadających event'om w istniejących widokach
 Etap 4: Rozszerzenie metod, celem tworzenia obiektów odpowiadających encjom
-Etap 5: Stworzenie algorytmu przetwarzającego obiekty na JSON wraz z określeniem kolejności generowanych tabel
+Etap 5: Stworzenie algorytmu przetwarzającego obiekty na JSON
 Etap 6: Stworzenie algorytmu generującego skrypt tworzący tabele bazy danych
-Etap 7: Refaktoryzacja kodu 
+Etap 7: Refaktoryzacja kodu
 Etap 8: Skończenie sprawozdania oraz obrona
 Wszelkie prace zostaną wykonane przez jedną osobę
 Temat pracy inżynierskiej - "Opracowanie i implementacja aplikacji internetowej do organizacji pracy wolontariuszy Dziecięcej Politechniki Świętokrzyskiej."
-Temat projektu z przedmiotu "Programowanie systemów rozproszonych" - 
+Temat projektu z przedmiotu "Programowanie systemów rozproszonych" -
+
+Link do repozytorium: https://github.com/RRobak/TechObjectPro 
