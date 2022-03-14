@@ -7,12 +7,13 @@ Funkcjonalności:
 Dodawanie encji bazy danych
 Dodawanie atrybutów encji
 Określanie szczegółów atrybutów
-Utworzenie relacji pomiędzy encjami
-Generowanie kodu w języku Transact-SQL do pliku
+Utworzenie związków pomiędzy tabelami
+Generowanie kodu w SQL do pliku
 Utworzenie połączenia z bazą danych
 Wykonanie skryptu dla podłączonej bazy danych
+Umożliwienie dziedziczenia poprzez metodę joined table
 Harmonogram prac:
-Etap 2: Zapoznanie się z technoligią Microsoft SQL Server oraz przygotowanie wstępu teoretycznego dotyczącego bazy, projekt formatek
+Etap 2: Zapoznanie się z technologią Microsoft SQL Server oraz przygotowanie wstępu teoretycznego dotyczącego bazy, projekt formatek
 Etap 3: Utworzenie widoków, utworzenie podstawowych metod odpowiadających event'om w istniejących widokach
 Etap 4: Rozszerzenie metod, celem tworzenia obiektów odpowiadających encjom
 Etap 5: Stworzenie algorytmu przetwarzającego obiekty na JSON wraz z określeniem kolejności generowanych tabel
