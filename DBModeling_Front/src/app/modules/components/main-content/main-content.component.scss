@@ -1,0 +1,11 @@
+.main-content {
+  height: 80vh;
+  width: 100vw;
+  background-color: #497bdf;
+  mat-selection-list {
+      width:10vw;
+    mat-list-option {
+      color: black;
+    }
+  }
+}
