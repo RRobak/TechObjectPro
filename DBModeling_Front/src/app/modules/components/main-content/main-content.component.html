@@ -1,9 +1,14 @@
 <div class="main-content">
   <!-- <div> -->
-    <mat-selection-list #shoes [multiple]="false">
-        <mat-list-option *ngFor="let shoe of typesOfShoes" [value]="shoe">
-          {{shoe}}
-        </mat-list-option>
-      </mat-selection-list>
+  <mat-selection-list #shoes [multiple]="false">
+    <div class="list__header"><span class="list__header__span">Elementy:</span></div>
+    <mat-list-option *ngFor="let shoe of typesOfShoes" [value]="shoe">
+      {{ shoe }}
+    </mat-list-option>
+  </mat-selection-list>
+  <div class="rightSide">
+    <app-graphical-modeling></app-graphical-modeling>
+    <app-script-view></app-script-view>
+  </div>
   <!-- </div> -->
 </div>
