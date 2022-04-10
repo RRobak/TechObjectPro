@@ -9,6 +9,8 @@ import { DragBoxComponent } from './drag-box/drag-box.component';
 import { GraphicalModelingComponent } from './graphical-modeling/graphical-modeling.component';
 import { ScriptViewComponent } from './script-view/script-view.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,14 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     GraphicalModelingComponent,
     ScriptViewComponent,
   ],
-  imports: [CommonModule, MatButtonModule, MatListModule, DragDropModule],
+  imports: [
+    CommonModule,
+    MatButtonModule,
+    MatListModule,
+    DragDropModule,
+    MatButtonToggleModule,
+    MatIconModule
+  ],
   exports: [HeaderComponent, MainContentComponent, FooterComponent],
 })
 export class ComponentModule {}

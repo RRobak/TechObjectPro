@@ -1,3 +1,23 @@
-<div class="example-box" cdkDrag cdkDragBoundary=".graphicalModeling">
-  Drag me around
+<div class="dragBox" cdkDrag cdkDragBoundary=".graphicalModeling">
+  <div class="dragBox__title">
+    <input
+      type="text"
+      id="dragBox__title__tableName"
+      placeholder="Nazwa tabeli"
+    />
+  </div>
+  <div class="dragBox__fields">
+    <div class="dragBox__field">
+      <input
+        type="text"
+        id="dragBox__title__fieldName"
+        placeholder="Nazwa pola"
+      />
+    </div>
+    <div class="dragBox__buttons">
+      <button >
+        <mat-icon>block</mat-icon>
+      </button>
+    </div>
+  </div>
 </div>
