@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ComponentModule } from './modules/components/component.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragBoxComponent } from './modules/components/drag-box/drag-box.component';
 
 
 @NgModule({
@@ -14,5 +15,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents: [DragBoxComponent],
 })
 export class AppModule {}
