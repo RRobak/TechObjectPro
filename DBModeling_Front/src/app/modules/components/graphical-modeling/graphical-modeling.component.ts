@@ -26,17 +26,12 @@ export class GraphicalModelingComponent implements OnInit {
     const factory = this.resolver.resolveComponentFactory(DragBoxComponent);
     this.vc.createComponent(factory);
   }
-  // @ViewChild(TemplateRef, { read: ViewContainerRef })target!: ViewContainerRef;
-  addElement() {
+
+  addTable() {
     const factory = this.resolver.resolveComponentFactory(DragBoxComponent);
     this.vc.createComponent(factory);
-    // const adItem = DragBoxComponent;
-    // // this.viewContainerRef.clear();
-    // const componentRef = this.viewContainerRef.createComponent<DragBoxComponent>(adItem);
-    // componentRef.instance.data = this.data;
-    // if(this.viewContainerRef.length>2){
-    // this.viewContainerRef.remove(2);}
-    // this.componentRef = this.target.createComponent(childComponent);
-    // const componentRef  = this.viewContainerRef.createComponent(DragBoxComponent);
   }
+
+  addRelation() {}
+  addInheritance() {}
 }

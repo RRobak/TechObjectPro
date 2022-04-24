@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { GraphicalModelingComponent } from '../graphical-modeling/graphical-modeling.component';
 
 @Component({
   selector: 'app-main-content',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit {
-  typesOfShoes: string[] = ['Nowa tabela', 'Nowa relacja','Dziedziczenie'];
+  @ViewChild( GraphicalModelingComponent ) gmc!: GraphicalModelingComponent;
   constructor() { }
 
   ngOnInit(): void {
