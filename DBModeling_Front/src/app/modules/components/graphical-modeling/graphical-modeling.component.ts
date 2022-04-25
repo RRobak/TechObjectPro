@@ -23,8 +23,6 @@ export class GraphicalModelingComponent implements OnInit {
   constructor(private resolver: ComponentFactoryResolver) {}
 
   ngOnInit(): void {
-    const factory = this.resolver.resolveComponentFactory(DragBoxComponent);
-    this.vc.createComponent(factory);
   }
 
   addTable() {

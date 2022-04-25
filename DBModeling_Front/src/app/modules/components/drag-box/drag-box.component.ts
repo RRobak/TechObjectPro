@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, ComponentFactoryResolver, Input, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
+import { DragBoxLabelComponent } from '../drag-box-label/drag-box-label.component';
 
 @Component({
   selector: 'app-drag-box',
@@ -7,10 +8,15 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class DragBoxComponent implements OnInit {
   @Input() data: any;
+  @ViewChild('labelvc', { read: ViewContainerRef }) labelvc!: ViewContainerRef;
   
-  constructor() { }
+  constructor(private resolver: ComponentFactoryResolver) { }
 
   ngOnInit(): void {
+  }
+  addLabel(){
+    const factory = this.resolver.resolveComponentFactory(DragBoxLabelComponent);
+    this.labelvc.createComponent(factory);
   }
 
 }

@@ -7,17 +7,11 @@
     />
   </div>
   <div class="dragBox__fields">
-    <div class="dragBox__field">
-      <input
-        type="text"
-        id="dragBox__title__fieldName"
-        placeholder="Nazwa pola"
-      />
-    </div>
-    <div class="dragBox__buttons">
-      <button >
-        <mat-icon>block</mat-icon>
-      </button>
-    </div>
+    
+    <app-drag-box-label></app-drag-box-label>
+    <ng-container #labelvc></ng-container>
+    <button mat-icon-button color="primary" aria-label="Example icon button with a home icon" (click)=addLabel()>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
   </div>
 </div>

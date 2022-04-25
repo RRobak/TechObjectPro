@@ -11,6 +11,7 @@ import { ScriptViewComponent } from './script-view/script-view.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatIconModule } from '@angular/material/icon';
+import { DragBoxLabelComponent } from './drag-box-label/drag-box-label.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
     DragBoxComponent,
     GraphicalModelingComponent,
     ScriptViewComponent,
+    DragBoxLabelComponent,
   ],
   imports: [
     CommonModule,
