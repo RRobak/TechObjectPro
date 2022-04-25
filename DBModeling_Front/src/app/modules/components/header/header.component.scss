@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  background-color: #898888;
+  .header__name {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    width: 25vw;
+  }
+  .header__freespace {
+    width: 50vw;
+  }
+  .header__run {
+    width: 25vw;
+    justify-content: center;
+    align-self: center;
+    .primaryButton {
+      font-size: 30px;
+      background-color: blue;
+    }
+  }
+}

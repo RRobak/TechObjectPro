@@ -1,0 +1,17 @@
+<div class="dragBox" cdkDrag cdkDragBoundary=".graphicalModeling">
+  <div class="dragBox__title">
+    <input
+      type="text"
+      id="dragBox__title__tableName"
+      placeholder="Nazwa tabeli"
+    />
+  </div>
+  <div class="dragBox__fields">
+    
+    <app-drag-box-label></app-drag-box-label>
+    <ng-container #labelvc></ng-container>
+    <button mat-icon-button color="primary" aria-label="Example icon button with a home icon" (click)=addLabel()>
+      <mat-icon>keyboard_arrow_down</mat-icon>
+    </button>
+  </div>
+</div>

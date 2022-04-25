@@ -1,0 +1,96 @@
+.dragBox {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: move;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 1;
+  transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  .dragBox__title {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+    #dragBox__title__tableName {
+      background-color: #ccc;
+      // input[type="text"] {
+      box-sizing: border-box;
+      width: 100%;
+      // }
+    }
+  }
+  .dragBox__fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    app-drag-box-label{
+      width: 100%;
+    }
+
+    input{
+      width:100%;
+    }
+    .dragBox__field {
+      height:30px;
+      width: 90%;
+      border: #ccc solid 1px;
+      display: flex;
+      flex-direction: row;
+    }
+    .dragBox__buttons {
+      display: flex;
+      flex-direction: row;
+      width:10%;
+      button{
+        padding: 0px;
+        box-sizing: border-box;
+        width:100%;
+        font-size: 5px;
+        .mat-icon{
+          font-size: 15px;
+          width:15px;
+          height:15px;
+        }
+      }
+    }
+    
+  }
+}
+
+.dragBox:active {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+// input[type="text"] {
+//   box-sizing: border-box;
+//   width: 85%;
+// }
+// input[type="checkbox"] + label {
+//   display: inline-block;
+//   padding: 0 0 0 0px;
+//   border:#ccc solid 1px;
+//   width: 20px;
+//   height: 20px;
+//   background-size: 100%;
+// }
+
+// input[type="checkbox"]:checked + label {
+//   background: url("http://contentservice.mc.reyrey.net/image_v1.0.0/2267461")
+//     no-repeat;
+//   width: 20px;
+//   height: 20px;
+//   display: inline-block;
+//   background-size: 100%;
+// }
+// input[type="checkbox"] {
+//   display: none;
+// }
